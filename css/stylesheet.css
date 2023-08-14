@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kumbh sans;
+}
+
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 100px 100px 150px;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.product {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.product-1{
+    position: relative;
+    top: -50px;
+    left: 0px;
+}
+
+.product-2{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.product-3{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.product-4{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.bottom-items{
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+    margin-top: 33px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.text h3{
+    text-transform: uppercase;
+    color: hsl(26, 100%, 55%);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.text h2{
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+}
+
+.text h5{
+    margin-bottom: 40px;
+    color: hsl(219, 9%, 45%);
+}
+
+.text h4{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.percentage{
+    background-color: bisque;
+    font-size: 15px;
+    padding:  3px 3px;
+    border-radius: 5px;
+    color: hsl(26, 100%, 55%);
+}
+
+.value{
+    margin-top: 10px;
+    color: hsl(219, 9%, 45%);
+}
+
+.cart{
+    margin-top: 40px;
+    display: flex;
+}
+
+.signs{
+    width: 40%;
+    letter-spacing: 20px;
+    background-color: hsl(223, 64%, 98%);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.add{
+    margin-left: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(26, 100%, 55%);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    gap: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.line{
+    margin-left: 100px;
+    margin-right: 100px;
+}
